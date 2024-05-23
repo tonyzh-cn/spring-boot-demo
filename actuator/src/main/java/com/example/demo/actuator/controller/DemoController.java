@@ -14,7 +14,7 @@ public class DemoController {
     @RequestMapping("/echo")
     @ResponseBody
     public String echo() {
-        return "hello3";
+        return "hello4";
     }
 
     @RequestMapping("/error")
