@@ -1,0 +1,34 @@
+server:
+  port: 8080
+#  shutdown: graceful
+
+management:
+  endpoints:
+    enabled-by-default: true
+    prometheus:
+      enable: true
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
+
+logging:
+  file:
+    name: logs/actuator.log
+
+#spring:
+#  security:
+#    user:
+#      name: admin
+#      password: 123
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8081
+#        username: admin
+#        password: 123

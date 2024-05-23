@@ -1,0 +1,69 @@
+2024-05-11 08:38:29.122  INFO 27064 --- [restartedMain] c.example.demo.actuator.MainApplication  : Starting MainApplication on tony with PID 27064 (E:\Code\demoEnv\spring-boot-demo\actuator\target\classes started by ZT in E:\Code\demoEnv\spring-boot-demo)
+2024-05-11 08:38:29.130  INFO 27064 --- [restartedMain] c.example.demo.actuator.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-11 08:38:29.252  INFO 27064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-11 08:38:29.253  INFO 27064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-11 08:38:31.007  INFO 27064 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-11 08:38:31.010  INFO 27064 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-11 08:38:31.385  INFO 27064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2024-05-11 08:38:31.397  INFO 27064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-11 08:38:31.398  INFO 27064 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-05-11 08:38:31.402  INFO 27064 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-05-11 08:38:31.403  INFO 27064 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-05-11 08:38:31.403  INFO 27064 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-05-11 08:38:31.408  INFO 27064 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-05-11 08:38:31.527  INFO 27064 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-11 08:38:31.528  INFO 27064 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2273 ms
+2024-05-11 08:38:32.588  INFO 27064 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-11 08:38:32.655  INFO 27064 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-05-11 08:38:33.060  INFO 27064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-11 08:38:33.683  INFO 27064 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2024-05-11 08:38:33.742  INFO 27064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2024-05-11 08:38:34.299  INFO 27064 --- [restartedMain] c.example.demo.actuator.MainApplication  : Started MainApplication in 6.342 seconds (JVM running for 10.486)
+2024-05-11 08:41:47.055  INFO 27064 --- [http-nio-8088-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1688468928; _ga_73YJPXJTLX=GS1.1.1688482155.3.0.1688482155.0.0.0; username-localhost-8888="2|1:0|10:1713862286|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI5Yjc1ODdiZjQyYmI0NGUxYjAxM2ZlNDAwYjNkMjFiOSIsICJuYW1lIjogIkFub255bW91cyBDaGFsZGVuZSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIENoYWxkZW5lIiwgImluaXRpYWxzIjogIkFDIiwgImNvbG9yIjogbnVsbH0=|8d50c7fd92953fbf1c6ea358740f69360dea54fc1f6f30c4bf83489b7cc01344"; _xsrf=2|db55865a|85939d6d467fbb8312646d5a3a69e99f|1713862286; sentinel_dashboard_cookie=C66994204F17A93A39A5CA1B9DD024E2] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-05-11 08:41:47.119  INFO 27064 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 08:41:47.119  INFO 27064 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-11 08:41:47.144  INFO 27064 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2024-05-11 08:43:55.244  INFO 864 --- [restartedMain] c.example.demo.actuator.MainApplication  : Starting MainApplication on tony with PID 864 (E:\Code\demoEnv\spring-boot-demo\actuator\target\classes started by ZT in E:\Code\demoEnv\spring-boot-demo)
+2024-05-11 08:43:55.247  INFO 864 --- [restartedMain] c.example.demo.actuator.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-11 08:43:55.305  INFO 864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-11 08:43:55.305  INFO 864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-11 08:43:56.444  INFO 864 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-11 08:43:56.447  INFO 864 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-11 08:43:56.680  INFO 864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2024-05-11 08:43:56.689  INFO 864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-11 08:43:56.689  INFO 864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-05-11 08:43:56.692  INFO 864 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-05-11 08:43:56.693  INFO 864 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-05-11 08:43:56.693  INFO 864 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-05-11 08:43:56.696  INFO 864 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-05-11 08:43:56.785  INFO 864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-11 08:43:56.785  INFO 864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1479 ms
+2024-05-11 08:43:57.171  INFO 864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-11 08:43:57.207  INFO 864 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-05-11 08:43:57.476  INFO 864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-11 08:43:57.914  INFO 864 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2024-05-11 08:43:57.959  INFO 864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2024-05-11 08:43:58.402  INFO 864 --- [restartedMain] c.example.demo.actuator.MainApplication  : Started MainApplication in 4.144 seconds (JVM running for 5.27)
+2024-05-11 09:07:49.166  INFO 29632 --- [restartedMain] c.example.demo.actuator.MainApplication  : Starting MainApplication on tony with PID 29632 (E:\Code\demoEnv\spring-boot-demo\actuator\target\classes started by ZT in E:\Code\demoEnv\spring-boot-demo)
+2024-05-11 09:07:49.172  INFO 29632 --- [restartedMain] c.example.demo.actuator.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-11 09:07:49.274  INFO 29632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-11 09:07:49.275  INFO 29632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-11 09:07:50.713  INFO 29632 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-11 09:07:50.814  INFO 29632 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-11 09:07:51.151  INFO 29632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2024-05-11 09:07:51.184  INFO 29632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-11 09:07:51.185  INFO 29632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-05-11 09:07:51.187  INFO 29632 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-05-11 09:07:51.187  INFO 29632 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-05-11 09:07:51.187  INFO 29632 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-05-11 09:07:51.191  INFO 29632 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-05-11 09:07:51.266  INFO 29632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-11 09:07:51.266  INFO 29632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1990 ms
+2024-05-11 09:07:51.640  INFO 29632 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-11 09:07:51.686  INFO 29632 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-05-11 09:07:51.991  INFO 29632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-11 09:07:52.500  INFO 29632 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2024-05-11 09:07:52.548  INFO 29632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2024-05-11 09:07:53.029  INFO 29632 --- [restartedMain] c.example.demo.actuator.MainApplication  : Started MainApplication in 5.331 seconds (JVM running for 6.516)
+2024-05-11 09:20:10.575  INFO 29632 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
